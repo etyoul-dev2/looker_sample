@@ -36,29 +36,29 @@
 
   - measure: count
     type: count
-    drill_fields: []
+    # drill_fields: []
 
   - measure: total_volume
     type : sum
     sql : ${TABLE}.volume
-    drill_fields: []
+    # drill_fields: []
 
   - measure: avg_open
     type : avg
     sql : ${TABLE}.open
-    drill_fields: []
+    # drill_fields: []
 
   - measure: avg_close
     type : avg
     sql : ${TABLE}.close
-    drill_fields: []
+    # drill_fields: []
 
   - measure: avg_low
     type : avg
     sql : ${TABLE}.low
-    drill_fields: []
+    # drill_fields: []
 
   - measure: avg_high
     type : avg
     sql : ${TABLE}.high
-    drill_fields: []
+    # drill_fields: []
