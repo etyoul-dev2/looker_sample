@@ -1,5 +1,5 @@
 - view: sample
-  sql_table_name: public.sample
+  sql_table_name: public.nasdaq
   fields:
 
   - dimension: close
